@@ -70,3 +70,13 @@
 .wp-block-buttons>.wp-block-button:last-child {
     margin-bottom: 0;
 }
+
+.footer-widget{
+    grid-area: widget;
+    width: 100%;
+}
+
+.widget-container{
+    display: grid;
+    grid-template-areas: 'widget widget widget widget';
+}
