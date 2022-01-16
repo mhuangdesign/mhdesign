@@ -1,0 +1,72 @@
+
+/*Custom css*/
+.custom-logo-link img{
+    width: 80px;
+    margin: 10px auto;
+}
+
+.site-branding{
+	width: 150px;
+}
+#site-navigation{
+	width: calc(100% - 370px);
+}
+#get-quote{
+    width:190px; 
+}
+#get-quote a{
+    width: 170px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #ff5500;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.site-header .container{
+	display:flex;
+    align-items: center;
+    
+}
+.container{
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px ) {
+    .container{
+        max-width: 700px;
+    }
+}
+@media only screen and (min-width: 960px ) {
+    .container{
+        max-width: 900px;
+    }
+}
+@media only screen and (min-width: 1200px ) {
+    .container{
+        max-width: 1024px;
+    }
+}
+@media only screen and (min-width: 1280px ) {
+    .container{
+        max-width: 1240px;
+    }
+}
+
+.main-navigation ul{
+    justify-content: flex-end;
+}
+
+
+.main-navigation li {
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wp-block-buttons>.wp-block-button:last-child {
+    margin-bottom: 0;
+}
