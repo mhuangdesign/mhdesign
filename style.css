@@ -967,4 +967,10 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+.open{
+	display:block;
+}
+.close{
+	display:none;
+}
 
